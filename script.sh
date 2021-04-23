@@ -33,10 +33,10 @@ fi
 
 echo " "
 echo "Updating your Ultroid"
-git pull https://github.com/TeamUltroid/Ultroid.git --branch dev
+git pull https://github.com/TeamUltroid/Ultroid.git --set-upstream dev
 git diff
 git commit -m "termux merge"
-git push
+git push https://github.com/${userName}/${repo}.git
 echo " "
 echo "Updated"
 cd ..
