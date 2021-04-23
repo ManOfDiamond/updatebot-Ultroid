@@ -1,6 +1,6 @@
 #Update script of UserBot by @marshmello61
 #Some fixes by @RoyalBoy69
-
+#Ported for Ultroid by ManOfDiamond
 
 repo="Ultroid"
 rm -rf ${repo}
@@ -27,7 +27,7 @@ elif [[ "${fork}" == 'n' ]]; then
 	cd ${repo}
 else
         echo " "
-        echo "You were only supposed to enter y or n"
+        echo "You were only supposed to enter y or n :/"
         exit 1
 fi
 
