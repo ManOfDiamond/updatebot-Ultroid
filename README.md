@@ -11,20 +11,20 @@
 
 ##### 2. Clone the repository (if exists, then ignore)
 
-####### For stable branch
+###### For stable branch
 
 ```bash
 git clone https://github.com/ManOfDiamond/updatebot
 ```
 
-####### For beta branch
+###### For beta branch
 ```bash
 
 git clone https://github.com/ManOfDiamond/updatebot.git --branch beta
 
 ```
 
-####### For dev branch
+###### For dev branch
 
 ```bash
 
