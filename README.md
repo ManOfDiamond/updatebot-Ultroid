@@ -1,7 +1,7 @@
 # # Automatic Updater For oub-remix 
 
 
-![logo](https://telegra.ph/file/67e5ed14bed07a529e7aa.jpg)
+![logo](https://telegra.ph/file/7823c3a4537afc8f64812.jpg)
 
 
 
