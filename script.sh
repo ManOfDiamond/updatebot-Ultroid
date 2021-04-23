@@ -2,10 +2,10 @@
 #Some fixes by @RoyalBoy69
 
 
-repo="oub-remix"
+repo="Ultroid"
 rm -rf ${repo}
 
-echo "You're running the oub-remix Updater script"
+echo "You're running the Ultroid Updater script"
 echo " "
 # Get username of user
 echo -n "Enter your GitHub username: "
@@ -13,17 +13,17 @@ read userName
 echo " "
 
 # Check if user has forked or has the same repo name
-echo -n "Have you forked oub-remix from sahyam2019 or has the same repo name i.e. oub-remix? [y/n]: "
+echo -n "Have you forked Ultroid from TeamUltroid or has the same repo name i.e. Ultroid? [y/n]: "
 read fork
 echo " "
 
 if [[ "${fork}" == 'y' ]]; then
-	git clone https://github.com/${userName}/${repo}.git
+	git clone https://github.com/${userName}/${repo}.git --branch dev
 	cd ${repo}
 elif [[ "${fork}" == 'n' ]]; then
 	echo -n "Enter your repo name: "
 	read repo
-	git clone https://github.com/${userName}/${repo}.git
+	git clone https://github.com/${userName}/${repo}.git --branch dev
 	cd ${repo}
 else
         echo " "
@@ -32,8 +32,8 @@ else
 fi
 
 echo " "
-echo "Updating your oub-remix"
-git pull https://github.com/sahyam2019/oub-remix.git
+echo "Updating your Ultroid"
+git pull https://github.com/TeamUltroid/Ultroid.git --branch dev
 git diff
 git commit -m "termux merge"
 git push
