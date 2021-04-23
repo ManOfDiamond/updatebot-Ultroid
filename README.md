@@ -1,4 +1,4 @@
-# # Automatic Updater For oub-remix 
+# # Automatic Updater For Ultroid 
 
 
 ![logo](https://telegra.ph/file/7823c3a4537afc8f64812.jpg)
