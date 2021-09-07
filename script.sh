@@ -35,7 +35,7 @@ echo " "
 echo "Updating your Ultroid"
 git pull https://github.com/TeamUltroid/Ultroid.git --set-upstream main
 git diff
-git commit -m "termux merge"
+git commit -m "script merge"
 git push https://github.com/${userName}/${repo}.git
 echo " "
 echo "Updated"
