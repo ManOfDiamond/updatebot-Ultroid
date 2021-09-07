@@ -38,4 +38,8 @@ git clone https://github.com/ManOfDiamond/updatebot.git --branch dev
 . updatebot/s*
 ```
 
-The script will do the process automatically
+The script will do the process automatically.
+
+### Note
+
+As github announced token authentication requirements, you'll now need to use token based authentication.
