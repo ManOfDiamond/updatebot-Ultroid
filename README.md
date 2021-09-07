@@ -41,3 +41,7 @@ git clone https://github.com/ManOfDiamond/updatebot.git --branch dev
 ```
 
 The script will do the process automatically
+
+### Note
+
+As github announced token authentication requirements, you'll now need to use token based authentication. For more info: https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/
