@@ -35,7 +35,7 @@ git clone https://github.com/ManOfDiamond/updatebot.git --branch dev
 ##### 3. Run the below command to run the script
 
 ```bash
-. updatebot/s*
+. updatebot-ult*/s*
 ```
 
 The script will do the process automatically.
